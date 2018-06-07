@@ -8,7 +8,6 @@ body {
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: 0.9;
   font-family: Helvetica, sans-serif;
   text-align: center;
   margin: 0;
@@ -39,4 +38,30 @@ a {
   color: seashell;
   text-decoration: underline;
   padding-left: 20px;
+}
+
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+#mission {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  padding-top: 70px;
+}
+
+#mission .content{
+  margin: auto;
+  background-color: black;
+  width: 100%;
 }
