@@ -40,6 +40,10 @@ a {
   padding-left: 20px;
 }
 
+div {
+  display: block;
+}
+
 .main {
   padding-top: 69px;
   opacity: 0.9;
@@ -64,4 +68,28 @@ a {
   margin: auto;
   background-color: black;
   width: 100%;
+}
+
+#store {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.item {
+  padding: 5px;
+}
+
+.item img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.item span {
+  padding-top: 10px;
+  font-weight: bold;
+  text-align: center;
+  display: block;
 }
